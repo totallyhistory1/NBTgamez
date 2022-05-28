@@ -45,8 +45,8 @@ i{
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   position: absolute;
-  top: 22%;
-  left: 50%;
+  margin-top: 22%;
+  margin-left: 50%;
   transform: translate(-50%,-50%);
 }
 .games{
@@ -54,6 +54,6 @@ display: list-item;
 }
 .toptxt{
 	font-family: 'Work Sans', sans-serif;
-    margin-top: 65px;
-	margin-left: 65px;
+    margin-top: 25px;
+	margin-left: 25px;
 }  
