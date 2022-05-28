@@ -1,43 +1,46 @@
+
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./games.css">
+  <link rel="stylesheet" href="fontawesome-free-5.15.1/css/all.css">
+  <title>Search</title>
+  <script src="./games.js"></script>
+</head>
 
-  <head>
-    <title>
-      NBTgames | play games online for free
-    </title>
-
-    <!-- linking the stylesheet(CSS) -->
-    <link rel="stylesheet" type="text/css" href="./games.css">
-  </head>
-
-  <body>
-
-    <!-- input tag -->
-    <input id="searchbar" onkeyup="search_game()" type="text" name="search" placeholder="Search games..">
-
-    <!-- ordered list -->
-    <ol id='list'>
-      <li class="games"><a href="./games/1v1lol">1v1.lol</a></li>
-      <li class="games"><a href="./games/drifthunters">drift hunters</a></li>
-      <li class="games"><a href="./games/2048">2048</a></li>
-      <li class="games"><a href="./games/basketballstars">basketball stars</a></li>
-      <li class="games"><a href="./games/cookieclicker">cookieclicker</a></li>
-      <li class="games"><a href="./games/crossyroad">crossy road</a></li>
-      <li class="games"><a href="./games/deeeepio">deeeep.io</a></li>
-      <li class="games"><a href="./games/ducklife">ducklife</a></li>
-      <li class="games"><a href="./games/ducklife2">ducklife 2</a></li>
-    </ol>
-
-    <!-- linking javascript -->
-    <script src="./games.js"></script>
-    <script>
-    	window.addEventListener('keydown', function (e) {
-            if(e.key == "`")
-            {
-				window.open('https://classroom.google.com/u/0/h', '_blank');
-            }
-		}, true);
-</script>
-  </body>
-
+<body>
+<div class="toptxt">
+<h2>NBTgamez</h2>
+</div>
+  <div class="box">
+      <input onkeyup="search_game()" id="searchbar" class="input" type="text" name="txt" onmouseout="document.search.txt.value = ''">
+    <i class="fas fa-search"></i>
+  </div>
+  <div id="list" class="list">
+    <h3>
+      <li class="games">1v1.lol</li>
+      <li class="games">drift hunters</li>
+	  <li class="games">2048</li>
+	  <li class="games">ducklife</li>
+	  <li class="games">ducklife 2</li>
+	  <li class="games">ducklife 3</li>
+	  <li class="games">ducklife 4</li>
+	  <li class="games">elasticman</li>
+	  <li class="games">flip master</li>
+	  <li class="games">fnaf 1</li>
+	  <li class="games">fnaf 2</li>
+	  <li class="games">fnaf 3</li>
+	  <li class="games">fnaf 4</li>
+	  <li class="games">fnaf sister location</li>
+	  <li class="games">fnf</li>
+    </h3>
+  </div>
+</body>
 </html>
