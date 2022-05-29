@@ -1,4 +1,3 @@
-// JavaScript code
 function search_game() {
     let input = document.getElementById('searchbar').value
     input=input.toLowerCase();
